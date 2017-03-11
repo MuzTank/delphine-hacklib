@@ -103,8 +103,16 @@
 			<Compiler Name="UnitInitSeq">True</Compiler>
 			<Compiler Name="LocalPInvoke">True</Compiler>
 			<Compiler Name="MessageDirective">True</Compiler>
-			<Compiler Name="CodePage"></Compiler>
-		</Compiler>
+			<Compiler Name="CodePage"></Compiler>  <Compiler Name="TypeInfoImplicitlyAdded">True</Compiler>
+      <Compiler Name="XMLWhitespaceNotAllowed">True</Compiler>
+      <Compiler Name="XMLUnknownEntity">True</Compiler>
+      <Compiler Name="XMLInvalidNameStart">True</Compiler>
+      <Compiler Name="XMLInvalidName">True</Compiler>
+      <Compiler Name="XMLExpectedCharacter">True</Compiler>
+      <Compiler Name="XMLCRefNoResolve">True</Compiler>
+      <Compiler Name="XMLNoParm">True</Compiler>
+      <Compiler Name="XMLNoMatchingParm">True</Compiler>
+    </Compiler>
 		<Linker>
 			<Linker Name="MapFile">0</Linker>
 			<Linker Name="OutputObjs">0</Linker>
@@ -139,11 +147,6 @@
 			<Parameters Name="LoadAllSymbols">True</Parameters>
 			<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
 		</Parameters>
-		<Language>
-			<Language Name="ActiveLang"></Language>
-			<Language Name="ProjectLang">$00000000</Language>
-			<Language Name="RootDir"></Language>
-		</Language>
 		<VersionInfo>
 			<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
 			<VersionInfo Name="AutoIncBuild">True</VersionInfo>
@@ -169,7 +172,11 @@
 			<VersionInfoKeys Name="OriginalFilename">mfc90g.dll</VersionInfoKeys>
 			<VersionInfoKeys Name="ProductName">RO Hacking Library</VersionInfoKeys>
 			<VersionInfoKeys Name="ProductVersion">1.0</VersionInfoKeys>
-			<VersionInfoKeys Name="Comments">Coded by Thiekus</VersionInfoKeys>  <VersionInfoKeys Name="LastCompiledTime">2017/02/23 17.12.48</VersionInfoKeys>
-    </VersionInfoKeys>
-	</Delphi.Personality>
+			<VersionInfoKeys Name="Comments">Coded by Thiekus</VersionInfoKeys>
+			<VersionInfoKeys Name="LastCompiledTime">2017/02/23 17.12.48</VersionInfoKeys>
+		</VersionInfoKeys>  <Signing>
+      <Signing Name="SignAssembly">False</Signing>
+    </Signing>
+    <buildevents/>
+  </Delphi.Personality>
 </BorlandProject>
