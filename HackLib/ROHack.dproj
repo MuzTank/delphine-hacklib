@@ -95,7 +95,7 @@
 		<PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
 			<VerInfo_Locale>1033</VerInfo_Locale>
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-			<VerInfo_Keys>CompanyName=Thiekus;FileDescription=Gravindo RO Hacking Library;FileVersion=1.0.0.52;InternalName=ROHack;LegalCopyright=Copyright © Thiekus 2017;LegalTrademarks=;OriginalFilename=ROHack.dll;ProductName=RO Hacking Library;ProductVersion=1.0;Comments=Coded by Thiekus;LastCompiledTime=2017/02/23 22.08.53</VerInfo_Keys>
+			<VerInfo_Keys>CompanyName=Thiekus;FileDescription=Gravindo RO Hacking Library;FileVersion=1.0.0.52;InternalName=ROHack;LegalCopyright=Copyright © Thiekus 2017;LegalTrademarks=;OriginalFilename=ROHack.dll;ProductName=RO Hacking Library;ProductVersion=1.0;Comments=Coded by Thiekus</VerInfo_Keys>
 			<VerInfo_Build>52</VerInfo_Build>
 		</PropertyGroup>
 		<ItemGroup>
